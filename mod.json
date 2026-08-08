@@ -1,17 +1,19 @@
 {
-	"geode": "$GEODE_VERSION",
+	"geode": "3.8.0",
 	"gd": {
-		"win": "2.2081",
-		"android": "2.2081",
-		"mac": "2.2081",
-		"ios": "2.2081"
+		"win": "2.2074",
+		"android": "2.2074"
 	},
-	"id": "$MOD_ID",
-	"name": "$MOD_NAME",
-	"version": "$MOD_VERSION",
-	"developer": "$MOD_DEVELOPER",
-	"description": "$MOD_DESCRIPTION",
-	"dependencies": {
-		"geode.node-ids": ">=v1.23.3"
-	}
+	"id": "com.kolya.laneditor",
+	"name": "LAN Editor",
+	"version": "1.0.0",
+	"developer": "kolya",
+	"description": "Mod with custom cursors",
+	"dependencies": [
+		{
+			"id": "geode.loader",
+			"version": "v3.8.0",
+			"importance": "required"
+		}
+	]
 }
